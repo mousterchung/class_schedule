@@ -4,10 +4,20 @@ var type_subject_select = document.getElementById('type_subject_select');
 var type_teacher_select = document.getElementById('type_teacher_select'); 
 var type_room_select = document.getElementById('type_room_select'); 
 var window_mode_select = document.getElementById('window_mode_select'); 
+var offsettop_sensor = document.getElementById('offsettop_sensor'); 
 
 var semester; 
 var window_mode = 'left'; 
 var select_data_json; 
+
+function height_checker() {
+	offsettop = offsettop_sensor.offsetTop
+	console.log('offsetTop = ', offsettop); 
+	if (offsettop > 57) {
+		console.log('Wrapped.'); 
+		parent.frame_top.style.height = 'calc(70px + 1em)'; 
+	}
+}
 
 async function load_select_data_json(semester_data) {
 	await fetch(`./data/file_list/${semester_data}.json`)
@@ -97,6 +107,7 @@ function open_file(data_site, data_window_mode) {
 
 semester_select.addEventListener('change', (event) => {
 	console.log(`'semester_select' Selected: '${event.target.value}'`); 
+	height_checker(); 
 	semester = event.target.value; 
 	change_select_data(semester); 
 })
@@ -124,3 +135,5 @@ window_mode_select.addEventListener('change', (event) => {
 	console.log(`'window_mode_select' Selected: '${event.target.value}'`); 
 	window_mode = event.target.value; 
 })
+
+height_checker(); 
