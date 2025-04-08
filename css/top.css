@@ -1,0 +1,17 @@
+@charset "utf-8"; 
+
+body {
+	background: url("../img/class_schedule_title_bg.gif") repeat-x #ccccff; 
+}
+
+.choice {
+	text-align: center; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+}
+
+label + label::before {
+	content: "　"; 
+}

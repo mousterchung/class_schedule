@@ -1,0 +1,9 @@
+{
+	"semester": "template", 
+	"files": {
+		"class": [{"ctemplate": "【範本】班級"}], 
+		"subject": [], 
+		"teacher": [{"ttemplate": "【範本】老師"}], 
+		"room": [{"rtemplate": "【範本】教室"}]
+	}
+}

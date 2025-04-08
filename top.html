@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>課表查詢系統｜Class Schedule Query System｜Mouster's Site</title>
+		<meta name="description" content="課表查詢系統｜Class Schedule Query System｜Mouster's Site"/>
+		<meta name="author" content="Mouster"/>
+		<meta name="keywords" content="課表查詢系統, Class Schedule Query System, Mouster, Mouster's Site"/>
+		<meta name="viwport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="cache-control" content="no-cache"/>
+		<link id="lnkShortcutIcon" media="all" rel="Shortcut Icon" type="image/x-icon" href="./img/favicon.ico"/>
+		<link rel="stylesheet" href="./css/top.css"/>
+	</head>
+	<body>
+		<img src="./img/class_schedule_title.gif" height="22" alt="課表查詢系統"/>
+		<div class="choice">
+			<label>
+				學期：
+				<select id="semester_select">
+					<option value="aaa" selected>請選擇學期</option>
+					<option value="template">範本</option>
+					<option value="113_2">113下</option>
+				</select>
+			</label>
+			<label>
+				<input id="type_class_radio" type="radio" value="class" name="type"/>
+				班級：
+				<select id="type_class_select" onFocus="type_class_radio.checked = true; ">
+					<option value="aaa" selected>請選擇班級</option>
+				</select>
+			</label>
+			<label style="/*display: none; */">
+				<input id="type_subject_radio" type="radio" value="subject" name="type" disabled/>
+				科目：
+				<select id="type_subject_select" onFocus="type_subject_radio.checked = true; ">
+					<option value="aaa" selected>請選擇科目</option>
+				</select>
+			</label>
+			<label>
+				<input id="type_teacher_radio" type="radio" value="teacher" name="type"/>
+				教師：
+				<select id="type_teacher_select" onFocus="type_teacher_radio.checked = true; ">
+					<option value="aaa" selected>請選擇教師</option>
+				</select>
+			</label>
+			<label>
+				<input id="type_room_radio" type="radio" value="room" name="type"/>
+				教室：
+				<select id="type_room_select" onFocus="type_room_radio.checked = true; ">
+					<option value="aaa" selected>請選擇教室</option>
+				</select>
+			</label>
+			<label>
+				開啟模式：
+				<select id="window_mode_select">
+					<option value="left" selected>開在左側窗格</option>
+					<option value="right">開在右側窗格</option>
+					<option value="new">開在新視窗</option>
+				</select>
+			</label>
+		</div>
+		<script src="./js/top.js"></script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>課表查詢系統｜Class Schedule Query System｜Mouster's Site</title><meta name="description" content="首頁｜Mouster's Site"/>
+		<meta name="description" content="課表查詢系統｜Class Schedule Query System｜Mouster's Site"/>
+		<meta name="author" content="Mouster"/>
+		<meta name="keywords" content="課表查詢系統, Class Schedule Query System, Mouster, Mouster's Site"/>
+		<meta name="viwport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="cache-control" content="no-cache"/>
+		<link id="lnkShortcutIcon" media="all" rel="Shortcut Icon" type="image/x-icon" href="./img/favicon.ico"/>
+		<link rel="stylesheet" href="./css/index.css"/>
+	</head>
+	<body>
+		<iframe id="frame_top"   src="./top.html"></iframe>
+		<div class="down">
+			<iframe id="frame_left"  src="./down.html?window=left"></iframe>
+			<iframe id="frame_right" src="./down.html?window=right"></iframe>
+		</div>
+		<script src="./js/get_scrollbar_width.js"></script>
+		<script>
+			var frame_top = document.getElementById('frame_top'); 
+			var frame_left = document.getElementById('frame_left'); 
+			var frame_right = document.getElementById('frame_right'); 
+			var window_dict = {top: frame_top, 
+							   left: frame_left, 
+							   right: frame_right}; 
+		</script>
+	</body>
+</html>

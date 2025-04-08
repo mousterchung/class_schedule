@@ -1,0 +1,73 @@
+@charset "utf-8"; 
+
+body {
+	background: white url("../img/down_bg.jpg") repeat-x scroll center top;
+}
+
+table {
+	text-align: center; 
+	border-collapse: collapse; 
+}
+
+table, th, td {
+	border: 1px solid #999999; 
+}
+
+td {
+	width: 100px; 
+	min-height: 70px; 
+	background-color: #DCE8F3; 
+	color: #003399; 
+}
+
+.table-title {
+	background-color: #003366; 
+	color: #FFFFFF; 
+}
+.weekday, .noon-break {
+	background-color: #000033; 
+	color: #FFFFFF; 
+}
+.time {
+	background-color: #006699; 
+	color: #FFFFFF; 
+}
+.ampm, .section {
+	background-color: #002C57; 
+	color: #FFFFFF; 
+}
+.subject, .teacher, .room {
+	display: inline-block; 
+}
+.subject {
+	color: #CC3333; 
+}
+.teacher, .room {
+	color: darkblue; 
+}
+.parttime, .oddevenweek {
+	font-size: 0.8em; 
+}
+.parttime {
+	color: #408080; 
+}
+.oddevenweek {
+	color: #804080; 
+}
+
+/*
+ item			 back	 fore
+thead			003366	FFFFFF
+week, noon		000033	FFFFFF
+ampm, section	002C57	FFFFFF
+time			006699	FFFFFF
+class			DCE8F3	003399
+  subject				CC3333
+  parttime				408080
+  teacher, room			darkblue
+  oddevenweek			804080
+*/
+
+.vertical {
+	writing-mode: vertical-rl; 
+}
