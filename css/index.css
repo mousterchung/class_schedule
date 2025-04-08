@@ -12,7 +12,9 @@ body, html {
 [id="frame_top"] {
 	width: calc(100cqw - 16px); 
 	/*height: calc(12cqh - 12px); */
-	height: 70px; 
+	/*height: 70px; */
+	min-height: 70px; 
+	max-height: calc(70px + 1em); 
 }
 [id="frame_left"], [id="frame_right"] {
 	width: calc(50cqw - 11.5px); 
