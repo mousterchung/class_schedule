@@ -47,7 +47,7 @@ function remove_redundant_option(type_select_str) {
 	console.log(`Removed Options from '${type_select_str}'.`); 
 }
 
-function add_option_(type_select_str) {
+/*function add_option_(type_select_str) {
 	type_select = eval(type_select_str); 
 	type_word = type_select_str.split('_')[1]; 
 	
@@ -61,7 +61,7 @@ function add_option_(type_select_str) {
 	}
 	
 	console.log(`Added Options to '${type_select_str}'.`); 
-}
+}*/
 
 function add_option(type_select_str) {
 	type_select = eval(type_select_str); 
@@ -102,7 +102,11 @@ async function change_select_data(semester_data) {
 }
 
 function open_file(data_site, data_window_mode) {
-	parent.window_dict[data_window_mode].contentWindow.location.replace(`data/${semester}/${data_site}.xml`);
+	if (['left', 'right'].includes(data_window_mode)) {
+		parent.window_dict[data_window_mode].contentWindow.location.replace(`data/${semester}/${data_site}.xml`); 
+	} else if (data_window_mode == 'new') {
+		
+	}
 }
 
 semester_select.addEventListener('change', (event) => {
