@@ -140,12 +140,24 @@
 		</html>
 	</xsl:template>
 	<xsl:template match="classes">
-		<span class="subject" onclick="" tabindex="0" onkeydown="">
+		<xsl:element name="span">
+			<xsl:attribute name="class">
+				<xsl:text>subject</xsl:text>
+			</xsl:attribute>
+			<xsl:attribute name="tabindex">
+				<xsl:text>0</xsl:text>
+			</xsl:attribute>
+			<xsl:attribute name="onclick">
+				<xsl:value-of select="'open_file_from_here(&quot;'" />
+				<xsl:value-of select="subject/attribute::id" />
+				<xsl:value-of select="'&quot;, &quot;'" />
+				<xsl:value-of select="/class-schedule/attribute::year" />
+				<xsl:value-of select="'_'" />
+				<xsl:value-of select="/class-schedule/attribute::semester" />
+				<xsl:value-of select="'&quot;); '" />
+			</xsl:attribute>
 			<xsl:value-of select="subject"/>
-			<xsl:if test="attribute::parttime='true'">
-				<span class="parttime">(兼)</span>
-			</xsl:if>
-		</span>
+		</xsl:element>
 		<xsl:element name="span">
 			<xsl:attribute name="class">
 				<xsl:text>teacher</xsl:text>
