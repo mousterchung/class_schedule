@@ -55,6 +55,16 @@ td {
 	color: #804080; 
 }
 
+.subject, .teacher, .room {
+	cursor: pointer; 
+}
+.subject:hover {
+	color: #E01F1F; 
+}
+:is(.teacher, .room):hover {
+	color: #0000D9; 
+}
+
 /*
  item			 back	 fore
 thead			003366	FFFFFF
