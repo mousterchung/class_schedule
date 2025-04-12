@@ -101,12 +101,16 @@ async function change_select_data(semester_data) {
 	console.log(`Changed Select Data to '${semester_data}'.`)
 }
 
-function open_file(data_site, data_window_mode) {
+function open_file(data_site, data_window_mode, data_semester = eval('semester')) {
 	if (['left', 'right'].includes(data_window_mode)) {
-		parent.window_dict[data_window_mode].contentWindow.location.replace(`data/${semester}/${data_site}.xml`); 
+		parent.window_dict[data_window_mode].contentWindow.location.replace(`data/${data_semester}/${data_site}.xml`); 
 	} else if (data_window_mode == 'new') {
 		
 	}
+}
+
+function open_file_from_down(data_site, data_semester) {
+	open_file(data_site, window_mode, data_semester); 
 }
 
 semester_select.addEventListener('change', (event) => {
