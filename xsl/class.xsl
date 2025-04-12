@@ -143,6 +143,9 @@
 		<xsl:element name="span">
 			<xsl:attribute name="class">
 				<xsl:text>subject</xsl:text>
+				<xsl:if test="attribute::parttime='true'">
+					<span class="parttime">(兼)</span>
+				</xsl:if>
 			</xsl:attribute>
 			<xsl:attribute name="tabindex">
 				<xsl:text>0</xsl:text>
