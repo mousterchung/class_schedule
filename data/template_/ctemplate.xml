@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../../xsl/class.xsl"?>
 <!DOCTYPE class-schedule SYSTEM "../../dtd/class.dtd">
-<class-schedule type="class" id="{class-id}" name="{class-name}" year="113" semester="2">
+<class-schedule type="class" id="{class-id}" name="{class-name}" year="template" semester="">
 	<weekday day="1">
 		<section section="0">
 		</section>
