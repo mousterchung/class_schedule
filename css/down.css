@@ -16,6 +16,7 @@ table, th, td {
 td {
 	width: 100px; 
 	min-height: 70px; 
+	vertical-align: middle; 
 	background-color: #DCE8F3; 
 	color: #003399; 
 }
@@ -38,6 +39,10 @@ td {
 }
 .subject, .class, .teacher, .room {
 	display: inline-block; 
+	width: 100%; 
+}
+:is(.subject, .class, .teacher, .room):empty {
+	display: none; 
 }
 .subject {
 	color: #CC3333; 
