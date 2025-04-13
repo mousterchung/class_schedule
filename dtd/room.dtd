@@ -1,0 +1,29 @@
+<!DOCTYPE class-schedule [
+	<!ELEMENT class-schedule (class-name, weekday, weekday, weekday, weekday, weekday, weekday)>
+		<!--<!ATTLIST class-schedule type (class|subject|teacher|room)>-->
+		<!ATTLIST class-schedule type CDATA #FIXED room>
+		<!ATTLIST class-schedule id ID #REQUIRED>
+		<!ATTLIST class-schedule name CDATA #REQUIRED>
+		<!ATTLIST class-schedule year CDATA #REQUIRED>
+		<!ATTLIST class-schedule semester (1|2) #REQUIRED>
+		
+		<!ELEMENT weekday (section, section, section, section, section, section, section, section, section)>
+			<!ATTLIST weekday day (1|2|3|4|5|6) #REQUIRED>
+			
+			<!ELEMENT section (classes*)>
+				<!ATTLIST section section (0|1|2|3|4|5|6|7|8|9) #REQUIRED>
+				<!ATTLIST section parttime (true|false) false>
+				<!ATTLIST section oddevenweek (odd|even|all) all>
+				
+				<!ELEMENT classes (subject, teacher+, room?)<
+					<!ATTLIST classes parttime (true|false) false>
+					
+					<!ELEMENT class (#PCDATA)>
+						<!ATTLIST class id IDREF #REQUIRED>
+					<!ELEMENT subject (#PCDATA)>
+						<!ATTLIST subject id IDREF #REQUIRED>
+					<!ELEMENT teacher (#PCDATA)>
+						<!ATTLIST teacher id IDREF #REQUIRED>
+					<!--<!ELEMENT room (#PCDATA)>
+						<!ATTLIST room id IDREF #REQUIRED>-->
+]>
