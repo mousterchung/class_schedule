@@ -36,13 +36,13 @@ td {
 	background-color: #002C57; 
 	color: #FFFFFF; 
 }
-.subject, .teacher, .room {
+.subject, .class, .teacher, .room {
 	display: inline-block; 
 }
 .subject {
 	color: #CC3333; 
 }
-.teacher, .room {
+.class, .teacher, .room {
 	color: darkblue; 
 }
 .parttime, .oddevenweek {
@@ -55,27 +55,27 @@ td {
 	color: #804080; 
 }
 
-.subject, .teacher, .room {
+/*.subject, */.class, .teacher, .room {
 	cursor: pointer; 
 }
-.subject:hover {
+/*.subject:hover {
 	color: #E01F1F; 
-}
-:is(.teacher, .room):hover {
+}*/
+:is(.class, .teacher, .room):hover {
 	color: #0000D9; 
 }
 
 /*
- item			 back	 fore		 hover
-thead			003366	FFFFFF
-week, noon		000033	FFFFFF
-ampm, section	002C57	FFFFFF
-time			006699	FFFFFF
-class			DCE8F3	003399
-  subject				CC3333		E01F1F
-  parttime				408080
-  teacher, room			darkblue	0000D9
-  oddevenweek			804080
+ item					 back	 fore		 hover
+thead					003366	FFFFFF
+week, noon				000033	FFFFFF
+ampm, section			002C57	FFFFFF
+time					006699	FFFFFF
+cell					DCE8F3	003399
+  subject						CC3333		E01F1F
+  parttime						408080
+  class, teacher, room			darkblue	0000D9
+  oddevenweek					804080
 */
 
 .vertical {
