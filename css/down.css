@@ -49,6 +49,13 @@ td:not(:empty) {
 :is(.subject, .class, .teacher, .room):empty {
 	display: none; 
 }
+.teacher.teacher:has(+ .teacher) {
+	display: inline-block; 
+}
+.teacher:has(~ .oddevenweek) {
+	display: inline; 
+}
+
 .subject {
 	color: #CC3333; 
 }
