@@ -133,7 +133,6 @@
 						</tr>
 					</tbody>
 				</table>
-				<script src="../../js/down.js"></script>
 				<script src="../../js/left.js"></script>
 				<script src="../../js/right.js"></script>
 			</body>
