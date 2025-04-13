@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../xsl/class.xsl"?>
+<!DOCTYPE class-schedule SYSTEM "../../dtd/class.dtd">
+<class-schedule type="class" id="{class-id}" name="{class-name}" year="template" semester="">
+	<weekday day="1">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="s802">童軍</subject>
+				<teacher id="t850">沈名哦</teacher>
+			</classes>
+		</section>
+		<section section="2">
+			<classes>
+				<subject id="s101">國語文</subject>
+				<teacher id="t159">王品洋</teacher>
+			</classes>
+		</section>
+		<section section="3">
+			<classes>
+				<subject id="s302">數學</subject>
+				<teacher id="t250">林雅卉</teacher>
+			</classes>
+		</section>
+		<section section="4">
+			<classes>
+				<subject id="s201">英語文</subject>
+				<teacher id="t200">潘怡芬</teacher>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="s702">體育</subject>
+				<teacher id="t808">周嘉賢</teacher>
+				<room id="r8">體育８</room>
+			</classes>
+		</section>
+		<section section="6">
+			<classes parttime="true">
+				<subject id="s402">理化</subject>
+				<teacher id="t330">羅昱傑</teacher>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="s451">資訊科技</subject>
+				<teacher id="t356">藍仁詮</teacher>
+				<room id="r23">電３</room>
+			</classes>
+		</section>
+		<section section="8">
+			<classes>
+				<subject id="s308">數學(輔)</subject>
+				<teacher id="t250">林雅卉</teacher>
+			</classes>
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="2">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="s201">英語文</subject>
+				<teacher id="t200">潘怡芬</teacher>
+			</classes>
+		</section>
+		<section section="2">
+			<classes>
+				<subject id="s302">數學</subject>
+				<teacher id="t250">林雅卉</teacher>
+			</classes>
+		</section>
+		<section section="3">
+			<classes parttime="true">
+				<subject id="s402">理化</subject>
+				<teacher id="t330">羅昱傑</teacher>
+			</classes>
+		</section>
+		<section section="4">
+			<classes>
+				<subject id="s101">國語文</subject>
+				<teacher id="t159">王品洋</teacher>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="s602">視覺藝術</subject>
+				<teacher id="t650">林沛蓁</teacher>
+				<room id="r"></room>
+			</classes>
+		</section>
+		<section section="6">
+			<classes>
+				<subject id="s605">導德領航</subject>
+				<teacher id="t200">潘怡芬</teacher>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="s503">公民與社會</subject>
+				<teacher id="t608">林盈君</teacher>
+			</classes>
+		</section>
+		<section section="8">
+			<classes>
+				<subject id="s108">國語文(輔)</subject>
+				<teacher id="t159">王品洋</teacher>
+			</classes>
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="3">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="s801">輔導</subject>
+				<teacher id="t914">林裕凱</teacher>
+			</classes>
+		</section>
+		<section section="2">
+			<classes>
+				<subject id="s101">國語文</subject>
+				<teacher id="t159">王品洋</teacher>
+			</classes>
+		</section>
+		<section section="3">
+			<classes oddevenweek="even">
+				<subject id="s204">美麗新世界</subject>
+				<teacher id="t200">潘怡芬</teacher>
+				<teacher id="t233">Paula</teacher>
+			</classes>
+		</section>
+		<section section="4">
+			<classes parttime="true">
+				<subject id="s402">理化</subject>
+				<teacher id="t330">羅昱傑</teacher>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="s202">英語文</subject>
+				<teacher id="t200">潘怡芬</teacher>
+			</classes>
+		</section>
+		<section section="6">
+			<classes>
+				<subject id="s302">數學</subject>
+				<teacher id="t250">林雅卉</teacher>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="s400">生活科技</subject>
+				<teacher id="t454">莊婷安</teacher>
+				<room id="r16">生科教室３</room>
+			</classes>
+		</section>
+		<section section="8">
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="4">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="s102">國語文</subject>
+				<teacher id="t159">王品洋</teacher>
+			</classes>
+		</section>
+		<section section="2">
+			<classes parttime="true">
+				<subject id="s603">表演藝術</subject>
+				<teacher id="t734">劉富丞</teacher>
+			</classes>
+		</section>
+		<section section="3">
+			<classes>
+				<subject id="s501">歷史</subject>
+				<teacher id="t511">王香嵐</teacher>
+			</classes>
+		</section>
+		<section section="4">
+			<classes>
+				<subject id="s701">健康教育</subject>
+				<teacher id="t750">楊千瑩</teacher>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="s502">地理</subject>
+				<teacher id="t550">鄭耀義</teacher>
+			</classes>
+		</section>
+		<section section="6">
+			<classes>
+				<subject id="s702">體育</subject>
+				<teacher id="t808">周嘉賢</teacher>
+				<room id="r8">體育８</room>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="s803">家政</subject>
+				<teacher id="t461">徐繼蔭</teacher>
+			</classes>
+		</section>
+		<section section="8">
+			<classes>
+				<subject id="s208">英語文(輔)</subject>
+				<teacher id="t200">潘怡芬</teacher>
+			</classes>
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="5">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="s105">本土語文</subject>
+				<teacher id="t169">蕭奕秋</teacher>
+			</classes>
+		</section>
+		<section section="2">
+			<classes parttime="true">
+				<subject id="s403">理化</subject>
+				<teacher id="t330">羅昱傑</teacher>
+			</classes>
+		</section>
+		<section section="3">
+			<classes>
+				<subject id="s302">數學</subject>
+				<teacher id="t250">林雅卉</teacher>
+			</classes>
+		</section>
+		<section section="4">
+			<classes>
+				<subject id="s601">音樂</subject>
+				<teacher id="t707">林凰淨</teacher>
+				<room id="r10">音樂１</room>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="s102">國語文</subject>
+				<teacher id="t159">王品洋</teacher>
+			</classes>
+		</section>
+		<section section="6">
+			<classes>
+				<subject id="s904">永中生活/社團活動</subject>
+				<teacher id="t200">潘怡芬</teacher>
+				<teacher id="t705">蕭家宜</teacher>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="s904">永中生活/社團活動</subject>
+				<teacher id="t200">潘怡芬</teacher>
+				<teacher id="t705">蕭家宜</teacher>
+			</classes>
+		</section>
+		<section section="8">
+			<classes>
+				<subject id="s408">理化(輔)</subject>
+				<teacher id="t330">羅昱傑</teacher>
+			</classes>
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="6">
+		<section section="0">
+		</section>
+		<section section="1">
+		</section>
+		<section section="2">
+		</section>
+		<section section="3">
+		</section>
+		<section section="4">
+		</section>
+		<section section="5">
+		</section>
+		<section section="6">
+		</section>
+		<section section="7">
+		</section>
+		<section section="8">
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+</class-schedule>
