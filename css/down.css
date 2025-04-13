@@ -49,11 +49,11 @@ td:not(:empty) {
 :is(.subject, .class, .teacher, .room):empty {
 	display: none; 
 }
-.teacher.teacher:has(+ .teacher) {
-	display: inline-block; 
-}
 .teacher:has(~ .oddevenweek) {
 	display: inline; 
+}
+.teacher:has(+ .teacher) {
+	display: inline-block; 
 }
 
 .subject {
@@ -62,14 +62,14 @@ td:not(:empty) {
 .class, .teacher, .room {
 	color: darkblue; 
 }
-.parttime, .oddevenweek {
-	font-size: 0.8em; 
-}
 .parttime {
 	color: #408080; 
 }
 .oddevenweek {
 	color: #804080; 
+}
+.parttime, .oddevenweek {
+	font-size: 0.8em; 
 }
 
 /*.subject, */.class, .teacher, .room {
