@@ -16,6 +16,13 @@ function height_checker() {
 	if (offsettop > 57) {
 		console.log('Wrapped.'); 
 		parent.frame_top.style.height = 'calc(70px + 1em)'; 
+		parent.frame_left.style.height = 'calc(100cqh - 16px - 4px - 70px - 1em)'; 
+		parent.frame_right.style.height = 'calc(100cqh - 16px - 4px - 70px - 1em)'; 
+	} else {
+		
+		parent.frame_top.style.height = '70px'; 
+		parent.frame_left.style.height = 'calc(100cqh - 16px - 4px - 70px)'; 
+		parent.frame_right.style.height = 'calc(100cqh - 16px - 4px - 70px)'; 
 	}
 }
 
