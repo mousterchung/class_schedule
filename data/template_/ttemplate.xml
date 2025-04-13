@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../xsl/teacher.xsl"?>
+<!DOCTYPE class-schedule SYSTEM "../../dtd/teacher.dtd">
+<class-schedule type="teacher" id="{teacher-id}" name="{teacher-name}" year="template" semester="">
+	<weekday day="1">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="2">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="3">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="4">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="6">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="8">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="2">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="2">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="3">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="4">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="6">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="8">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="3">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="2">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="3">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="4">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="6">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="8">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="4">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="2">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="3">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="4">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="6">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="8">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="5">
+		<section section="0">
+		</section>
+		<section section="1">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="2">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="3">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="4">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="5">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="6">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="7">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="8">
+			<classes>
+				<subject id="stemplate">{s-name}</subject>
+				<class id="ctemplate">{c-name}</class>
+				<room id="rtemplate">{r-name}</room>
+			</classes>
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+	<weekday day="6">
+		<section section="0">
+		</section>
+		<section section="1">
+		</section>
+		<section section="2">
+		</section>
+		<section section="3">
+		</section>
+		<section section="4">
+		</section>
+		<section section="5">
+		</section>
+		<section section="6">
+		</section>
+		<section section="7">
+		</section>
+		<section section="8">
+		</section>
+		<section section="9">
+		</section>
+	</weekday>
+</class-schedule>
