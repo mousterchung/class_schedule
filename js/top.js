@@ -108,16 +108,16 @@ async function change_select_data(semester_data) {
 	console.log(`Changed Select Data to '${semester_data}'.`)
 }
 
-function open_file(data_site, data_window_mode, data_semester = eval('semester')) {
+function open_file(data_site, data_window_mode, data_file_type="xml", data_semester = eval('semester')) {
 	if (['left', 'right'].includes(data_window_mode)) {
-		parent.window_dict[data_window_mode].contentWindow.location.replace(`data/${data_semester}/${data_site}.xml?window=${data_window_mode}`); 
+		parent.window_dict[data_window_mode].contentWindow.location.replace(`data/${data_semester}/${data_site}.${data_file_type}?window=${data_window_mode}`); 
 	} else if (data_window_mode == 'new') {
 		
 	}
 }
 
-function open_file_from_down(data_site, data_window_mode, data_semester) {
-	parent.window_dict[data_window_mode].contentWindow.location.replace(`../../data/${data_semester}/${data_site}.xml?window=${data_window_mode}`); 
+function open_file_from_down(data_site, data_window_mode, data_file_type="xml", data_semester) {
+	parent.window_dict[data_window_mode].contentWindow.location.replace(`../../data/${data_semester}/${data_site}.${data_file_type}?window=${data_window_mode}`); 
 }
 
 semester_select.addEventListener('change', (event) => {
@@ -129,22 +129,26 @@ semester_select.addEventListener('change', (event) => {
 type_class_select.addEventListener('change', (event) => {
 	console.log(`'type_class_select' Selected: '${event.target.value}'`); 
 	if (event.target.value == 'aaa') return; 
-	open_file(event.target.value, window_mode); 
+	[file_site, file_type] = event.target.value.split("|"); 
+	open_file(file_site, window_mode, file_type); 
 })
 type_subject_select.addEventListener('change', (event) => {
 	console.log(`'type_subject_select' Selected: '${event.target.value}'`); 
 	if (event.target.value == 'aaa') return; 
-	open_file(event.target.value, window_mode); 
+	[file_site, file_type] = event.target.value.split("|"); 
+	open_file(file_site, window_mode, file_type); 
 })
 type_teacher_select.addEventListener('change', (event) => {
 	console.log(`'type_teacher_select' Selected: '${event.target.value}'`); 
 	if (event.target.value == 'aaa') return; 
-	open_file(event.target.value, window_mode); 
+	[file_site, file_type] = event.target.value.split("|"); 
+	open_file(file_site, window_mode, file_type); 
 })
 type_room_select.addEventListener('change', (event) => {
 	console.log(`'type_room_select' Selected: '${event.target.value}'`); 
 	if (event.target.value == 'aaa') return; 
-	open_file(event.target.value, window_mode); 
+	[file_site, file_type] = event.target.value.split("|"); 
+	open_file(file_site, window_mode, file_type); 
 })
 window_mode_select.addEventListener('change', (event) => {
 	console.log(`'window_mode_select' Selected: '${event.target.value}'`); 
