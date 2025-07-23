@@ -75,14 +75,17 @@ function add_option(type_select_str) {
 	type_word = type_select_str.split('_')[1]; 
 	
 	o = select_data_json.files[type_word]; 
-	for (var need_to_add of o) {
-	for (var [key, value] of Object.entries(need_to_add)) {
-		var option_ = document.createElement('option'); 
-		var text_in_option_to_show = document.createTextNode(value);
-		option_.setAttribute('value', key); 
-		option_.appendChild(text_in_option_to_show); 
-		type_select.appendChild(option_); 
-	}}
+	if (typeof o[Symbol.iterator] == 'function'){
+		for (var need_to_add of o) {
+			for (var [key, value] of Object.entries(need_to_add)) {
+				var option_ = document.createElement('option'); 
+				var text_in_option_to_show = document.createTextNode(value);
+				option_.setAttribute('value', key); 
+				option_.appendChild(text_in_option_to_show); 
+				type_select.appendChild(option_); 
+			}
+		}
+	}
 	
 	console.log(`Added Options to '${type_select_str}'.`); 
 }
